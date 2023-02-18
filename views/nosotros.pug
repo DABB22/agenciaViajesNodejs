@@ -1,0 +1,39 @@
+//- asignacion de una variable creada en el index de router para mostrar en la vista del html
+//-p= viajes 
+//- asignacion de una variable creada en el index de router para mostrar en la vista del html
+//-p #{viajes} 
+
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="img-nosotros", class="img-fluid")
+
+            .col-md-7
+                h1= pagina
+                blockquote lorem ipsum dolor sit amet consectetur adipiscing elit pulvinar est, purus nullam congue dictumst placerat orci suspendisse arcu nibh, vivamus hac malesuada tortor litora eleifend sed aliquet. quisque litora habitasse in tortor nostra curae eu ultrices ridiculus, vel mattis pulvinar bibendum ornare eros enim commodo, sapien maecenas class aliquam mus platea facilisi odio. scelerisque bibendum aliquam vel sollicitudin phasellus quisque metus curae ridiculus auctor, velit ut erat cras et nunc tincidunt vehicula ante condimentum, ac nibh placerat lobortis semper augue 
+
+                p Nec ac massa etiam est velit pretium ut, inceptos orci viverra potenti litora primis integer, platea posuere justo tempor faucibus sapien. Lacinia posuere feugiat mi volutpat tortor mus aliquam pretium nisi tempus vivamus accumsan tristique, a cubilia nullam cras velit libero aenean netus vulputate platea himenaeos. Felis habitasse himenaeos platea morbi quisque orci purus, dictumst metus ad laoreet magna 
+
+                p Semper convallis libero purus cubilia cursus curae metus odio accumsan nullam, fringilla conubia sapien aenean mus sagittis interdum etiam id, aliquet dui bibendum aliquam arcu curabitur integer est a. Posuere aliquam sagittis aliquet non ac at interdum blandit, rutrum purus lectus gravida lobortis sodales leo phasellus, cras dictumst cubilia semper hac odio vivamus. Ornare eros donec scelerisque pulvinar a 
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono-seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p aliquam arcu curabitur integer est a. Posuere aliquam sagittis aliquet non ac at interdum blandit, rutrum purus lectus gravida lobortis sodales leo phasellus, cras dictumst cubilia semper hac odio vivamus. Ornare eros donec scelerisque 
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono-destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p aliquam arcu curabitur integer est a. Posuere aliquam sagittis aliquet non ac at interdum blandit, rutrum purus lectus gravida lobortis sodales leo phasellus, cras dictumst cubilia semper hac odio vivamus. Ornare eros donec scelerisque 
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono-precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p aliquam arcu curabitur integer est a. Posuere aliquam sagittis aliquet non ac at interdum blandit, rutrum purus lectus gravida lobortis sodales leo phasellus, cras dictumst cubilia semper hac odio vivamus. Ornare eros donec scelerisque 
+
